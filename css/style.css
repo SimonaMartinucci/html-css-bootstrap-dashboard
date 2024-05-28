@@ -3,6 +3,11 @@
 }
 
 /* HEADER */
+header {
+    height: 60px;
+    background-color: #f8f9fa;
+}
+
 .navbar > .container-fluid {
     flex-wrap: nowrap;
 }
@@ -14,4 +19,17 @@
 header .form-control {
     color: #777777;
     background-color: #e5e5e5;
+}
+
+
+/* MAIN */
+main .col-2.pt-4 {
+    background-color: #051e34;
+    background-image: url("../img/sidebar-bg.png");
+    background-size: 300%;
+    height: calc(100vh - 60px);
+}
+
+.d-flex.flex-column {
+    height: 100%;
 }
