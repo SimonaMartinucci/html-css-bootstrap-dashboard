@@ -60,10 +60,21 @@ select {
     width: 100%;
 }
 
+.ms_button {
+    display: inline;
+    color: white;
+    background-color: #165bba;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 3px 10px;
+    border-radius: 15px;
+    margin-right: 2px;
+}
 
+.bar h3:first-child {
+    display: inline;
+}
 
-
-/* DEBUG */
-.bar .col-12 {
-    border: 3px solid purple;
+.bar .fa-angles-right {
+    font-size: 8px;
 }
