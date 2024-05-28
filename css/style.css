@@ -23,6 +23,7 @@ header .form-control {
 
 
 /* MAIN */
+/* barra laterale sinistra */
 main .col-2.pt-4 {
     background-color: #051e34;
     background-image: url("../img/sidebar-bg.png");
@@ -32,4 +33,37 @@ main .col-2.pt-4 {
 
 .d-flex.flex-column {
     height: 100%;
+}
+
+/* main content */
+main .col-10.overflow-y-auto {
+    height: calc(100vh - 60px);
+}
+
+/* sezione barra azzurra */
+.bar .row {
+    background-color: #1b72e8;
+}
+
+.bar .fs-6 {
+    font-size: 0.9rem !important;
+}
+
+.offcanvas {
+    --bs-offcanvas-width: 600px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+}
+
+
+
+
+/* DEBUG */
+.bar .col-12 {
+    border: 3px solid purple;
 }
