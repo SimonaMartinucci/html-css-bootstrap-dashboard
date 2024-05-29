@@ -81,6 +81,7 @@ select {
 }
 
 /* sezione principale */
+/* sezione classi */
 .card-body .fs-6 {
     font-size: 0.8rem !important;
 }
@@ -93,3 +94,10 @@ select {
 .card-body .btn-sm {
     --bs-btn-font-size: 0.55rem;
 }
+
+/* sezione faq */
+.accordion-button,
+.accordion-body {
+    font-size: 0.8rem;
+}
+
