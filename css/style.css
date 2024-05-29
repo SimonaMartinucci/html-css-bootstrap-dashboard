@@ -16,7 +16,8 @@ header {
     width: 40px;
 }
 
-header .form-control {
+header .form-control,
+header .input-group-text {
     color: #777777;
     background-color: #e5e5e5;
 }
