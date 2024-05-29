@@ -101,3 +101,7 @@ select {
     font-size: 0.8rem;
 }
 
+/* sezione grafico */
+.img-list img {
+    width: 100%;
+}
